@@ -1,5 +1,6 @@
 import React from "react";
 import classNames from "classnames";
+
 const PriceCard = ({ price, index }) => {
   return (
     <div className="card mb-4 shadow-sm">

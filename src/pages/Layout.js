@@ -6,8 +6,10 @@ const Layout = ({ children }) => {
   return (
     <>
       <Header title="Company name" />
-      <div className="container">{children}</div>
-      <Footer />
+      <div className="container">
+        {children}
+        <Footer />
+      </div>
     </>
   );
 };
