@@ -1,5 +1,5 @@
 import React from "react";
-
+import Button from "components/common/Button";
 const Header = ({ title }) => {
   return (
     <div className="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
@@ -18,9 +18,7 @@ const Header = ({ title }) => {
           Pricing
         </a>
       </nav>
-      <a className="btn btn-outline-primary" href="#">
-        Sign up
-      </a>
+      <Button title="Sign up" styles="btn btn-outline-primary" />
     </div>
   );
 };

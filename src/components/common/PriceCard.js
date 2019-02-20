@@ -1,6 +1,6 @@
 import React from "react";
 import classNames from "classnames";
-
+import Button from "components/common/Button";
 const PriceCard = ({ price, index }) => {
   return (
     <div className="card mb-4 shadow-sm">
@@ -17,15 +17,13 @@ const PriceCard = ({ price, index }) => {
             <li key={index}>{element}</li>
           ))}
         </ul>
-        <button
-          type="button"
-          className={classNames(
-            "btn btn-lg btn-block",
-            index ? "btn-primary" : "btn-outline-primary"
+        <Button
+          title={price.buttonDescription}
+          styles={classNames(
+            "btn btn-lg btn-block ",
+            index ? " btn-primary" : "btn-outline-primary"
           )}
-        >
-          {price.buttonDescription}
-        </button>
+        />
       </div>
     </div>
   );
