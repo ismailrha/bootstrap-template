@@ -1,10 +1,10 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 const NavElement = ({ title, styles = "p-2 text-dark", link = "#" }) => {
   return (
-    <a href={link} className={styles}>
+    <Link to={link} className={styles}>
       {title}
-    </a>
+    </Link>
   );
 };
 

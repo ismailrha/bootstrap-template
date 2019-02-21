@@ -62,4 +62,38 @@ const prices = [
   //   }
 ];
 
-export default prices;
+const descriptions = [
+  {
+    title: "Prices",
+    content:
+      "Quickly build an effective pricing table for your potential customer with this Bootstrap example. It’s built with default Bootstrap components and utilities with little customization."
+  },
+
+  {
+    title: "Features",
+    content:
+      "Quickly build an effective pricing table for your potential customer with this Bootstrap example. It’s built with default Bootstrap components and utilities with little customization."
+  },
+  {
+    title: "Enterprise",
+    content:
+      "Quickly build an effective pricing table for your potential customer with this Bootstrap example. It’s built with default Bootstrap components and utilities with little customization."
+  },
+  {
+    title: "Support",
+    content:
+      "Quickly build an effective pricing table for your potential customer with this Bootstrap example. It’s built with default Bootstrap components and utilities with little customization."
+  },
+  {
+    title: "Home",
+    content:
+      "Quickly build an effective pricing table for your potential customer with this Bootstrap example. It’s built with default Bootstrap components and utilities with little customization."
+  },
+
+  {
+    title: "SignUp",
+    content: "to enjoy our Features and Prices."
+  }
+];
+
+export { prices, descriptions };
