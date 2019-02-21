@@ -9,7 +9,10 @@ const prices = [
       "Email support",
       "Help center access"
     ],
-    buttonDescription: "Sign up for free"
+    buttonDescription: {
+      title: "Sign up for free",
+      link: "#"
+    }
   },
   {
     title: "Pro",
@@ -21,7 +24,10 @@ const prices = [
       "Priority email support",
       "Help center access"
     ],
-    buttonDescription: "Get started"
+    buttonDescription: {
+      title: "Get started",
+      link: "#"
+    }
   },
   {
     title: "Enterprise",
@@ -33,7 +39,10 @@ const prices = [
       "Phone and email support",
       "Help center access"
     ],
-    buttonDescription: "Contact us"
+    buttonDescription: {
+      title: "Contact us",
+      link: "#"
+    }
   }
 
   //   {
@@ -46,7 +55,10 @@ const prices = [
   //       " support",
   //       "Help center access"
   //     ],
-  //     buttonDescription: "Get it fast"
+  //     buttonDescription: {
+  //   title :"Get it fast",
+  // link : "#"
+  //}
   //   }
 ];
 

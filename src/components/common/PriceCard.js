@@ -20,7 +20,7 @@ const PriceCard = ({ price, index }) => {
           ))}
         </ul>
         <Button
-          title={price.buttonDescription}
+          title={price.buttonDescription.title}
           styles={classNames(
             "btn btn-lg btn-block ",
             index ? " btn-primary" : "btn-outline-primary"
