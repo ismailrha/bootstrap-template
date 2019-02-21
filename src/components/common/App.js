@@ -1,7 +1,9 @@
 import React from "react";
+
 import HeroBlock from "components/common/HeroBlock";
 import PriceCard from "components/common/PriceCard";
 import Layout from "pages/Layout";
+
 import prices from "Mocked/data";
 
 const App = () => {

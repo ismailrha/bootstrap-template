@@ -1,6 +1,8 @@
 import React from "react";
 import classNames from "classnames";
+
 import Button from "components/common/Button";
+
 const PriceCard = ({ price, index }) => {
   return (
     <div className="card mb-4 shadow-sm">

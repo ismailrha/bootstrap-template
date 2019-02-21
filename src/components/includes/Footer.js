@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="col-12 col-md">
           <img
             className="mb-2"
-            src="/docs/4.3/assets/brand/bootstrap-solid.svg"
+            src="https://getbootstrap.com/docs/4.3/assets/brand/bootstrap-solid.svg"
             alt=""
             width="24"
             height="24"
